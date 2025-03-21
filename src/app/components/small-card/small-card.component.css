@@ -7,6 +7,10 @@
     height: 8rem;
 }
 
+.small-card__photo{
+    max-width: 200px;
+}
+
 .small-card__title{
     display: flex;
     justify-content: center;
