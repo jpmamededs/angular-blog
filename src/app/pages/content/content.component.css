@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    gap: 1rem;
 }
 
 .content__cover{
@@ -22,9 +23,26 @@
 
 .content__description{
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .content__description > p{
     color: grey;
 
+}
+
+a{
+    padding: 0.6rem;
+    border-radius: 1rem;
+    background-color: grey;
+    width: fit-content;
+}
+
+a:hover{
+    background-color: rgb(112, 112, 112);
 }
